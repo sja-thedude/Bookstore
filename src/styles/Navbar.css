@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.navbar {
+  display: flex;
+  margin: 0;
+  padding: 1.813rem 6.25rem;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.875rem;
+}
+
+.header-link,
+.link {
+  text-decoration: none;
+  color: #121212;
+}
+
+.list-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0 0 0 2.938rem;
+  padding: 0;
+}
+
+.list-nav li {
+  margin-right: 2.938rem;
+  letter-spacing: 1.9px;
+}
