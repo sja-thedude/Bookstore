@@ -1,0 +1,25 @@
+.act-books {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.act-books li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 6.689rem;
+  border-right: 1px solid #e8e8e8;
+}
+
+.act-books li:last-child {
+  border: none;
+}
+
+.act {
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
