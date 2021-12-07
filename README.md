@@ -6,7 +6,10 @@ The Bookstore is a website that display a list of books, add a book, and remove 
 
 This project is part of the Microverse curriculum module 3. The main objective is to understand how create a React app, use components, hooks, state, run tests, and creating professional documentation for development.
 
-![screenshot](img/style.png)
+![screenshot](./img.png)
+## Live
+
+[Live Link](https://sjathedude-bookstore.netlify.app/)
 
 
 ## Built With

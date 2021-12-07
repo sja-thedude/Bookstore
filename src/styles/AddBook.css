@@ -1,10 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.add-book-form {
+  min-width: 20rem;
+  margin: 2.313rem 8%;
+  padding: 0 0 2rem 0;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 2px solid #e8e8e8;
+}
+
+.add-book-form h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
 .form-group {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  flex-wrap: wrap;
   width: 80%;
 }
 
-input[type="text"],
+input[type="text"] {
+  flex: 2;
+  margin: 0 2.813rem 0 0;
+  min-width: 17.813rem;
+  height: 2.813rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  outline: none;
+}
+
 .multi-select {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 17.813rem;
+  margin: 0 2.813rem 0 0;
+}
+
+.form-group button {
+  width: 11.5rem;
+  height: 2.813rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #0290ff;
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 0.813rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 792px) {
+  .multi-select {
+    margin: 10px 2.813rem 0 0;
+  }
+
+  .form-group button {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  input[type="text"],
+  .multi-select {
+    margin: 10px 0 0 0;
+  }
 }

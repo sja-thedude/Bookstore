@@ -1,23 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+:root {
+  --border-color: #e8e8e8;
+}
+
 .navbar {
   display: flex;
   margin: 0;
-  padding: 1.813rem 6.25rem;
+  padding: 1.813rem 8%;
   font-family: 'Montserrat', Helvetica, sans-serif;
+  border-bottom: 2px solid var(--border-color);
 }
 
-header h1 {
+head h1 {
   margin: 0;
   padding: 0;
   font-weight: bold;
   font-size: 1.875rem;
 }
 
-.header-link,
+.head-link,
 .link {
   text-decoration: none;
   color: #121212;
+}
+
+.head-link {
+  font-weight: bold;
+  font-size: 1.875rem;
+  color: #008cf7;
+}
+
+.link {
+  font-size: 0.813rem;
+}
+
+.cat {
+  opacity: 0.5;
 }
 
 .list-nav {
