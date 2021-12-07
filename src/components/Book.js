@@ -9,7 +9,7 @@ function Book({ book }) {
 
   return (
     <div className="con-books">
-      <div className="book-info">
+      <div className="info-book">
         <h3>{book.category}</h3>
         <h2>{book.title}</h2>
         <ul className="act-books">
